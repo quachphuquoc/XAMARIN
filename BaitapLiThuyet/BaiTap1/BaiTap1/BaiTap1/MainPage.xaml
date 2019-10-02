@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BaiTap1.MainPage">
+
+    <StackLayout>
+
+        <Button Text="MAN HINH CHAO"
+                HorizontalOptions="Fill"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenManHinhChao"/>
+        
+        <Button Text="MAN HINH TINH TONG"
+                HorizontalOptions="Center"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenTinhTong"/>
+        
+        <Button Text="STACK LAYOUT"
+                HorizontalOptions="Center"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenStackLayout"/>
+        
+        <Button Text="ABSOLUTE LAYOUT"
+                HorizontalOptions="Center"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenAbsoluteLayout"/>
+        
+        <Button Text="GRID LAYOUT"
+                HorizontalOptions="Fill"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenGridLayout"/>
+        
+        <Button Text="LOGIN"
+                HorizontalOptions="Fill"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenLogin"/>
+        
+    </StackLayout>
+
+</ContentPage>
