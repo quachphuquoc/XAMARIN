@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Chapter2Examples.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Button Text="Array Markup Extension"
+                HorizontalOptions="Fill"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenArrayPage"/>
+
+            <Button Text="Reference Markup Extension"
+                HorizontalOptions="Center"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenReferencePage"/>
+
+            <Button Text="XAML Constructors"
+                HorizontalOptions="Center"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenConstructorsPage"/>
+
+            <Button Text="Setting Property Values"
+                HorizontalOptions="Center"
+                HeightRequest="80"
+                FontSize="Large"
+                Clicked="OpenPropertyValuesPage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
