@@ -1,0 +1,11 @@
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\bin\Debug\netstandard2.0\Chapter1.deps.json
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\bin\Debug\netstandard2.0\Chapter1.dll
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\bin\Debug\netstandard2.0\Chapter1.pdb
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\Chapter1.csprojAssemblyReference.cache
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\ContentPageExample.xaml.g.cs
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\Chapter1.AssemblyInfoInputs.cache
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\Chapter1.AssemblyInfo.cs
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\XamlC.stamp
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\Chapter1.dll
+C:\16521008\BaiTapThayKhoa\Chapter1Examples\Chapter1Examples\Chapter1Examples\obj\Debug\netstandard2.0\Chapter1.pdb
