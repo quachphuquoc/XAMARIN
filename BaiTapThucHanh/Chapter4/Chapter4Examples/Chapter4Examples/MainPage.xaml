@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Chapter4Examples.MainPage">
+    <ScrollView>
+        <StackLayout>
+
+            <Button Text="Local Design Page" Clicked="Button_Clicked"/>
+            <Button Text="Static Resources Page" Clicked="Button_Clicked_1"/>
+            <Button Text="Dynamic Resource Page" Clicked="Button_Clicked_2"/>
+            <Button Text="Explicit Style Page" Clicked="Button_Clicked_3"/>
+            <Button Text="Implicit Style Page" Clicked="Button_Clicked_4"/>
+            <Button Text="Overriding Styles Page" Clicked="Button_Clicked_5"/>
+            <Button Text="Button Styles With Resources Page" Clicked="Button_Clicked_6"/>
+            <Button Text="Styles Page" Clicked="Button_Clicked_7"/>
+            <Button Text="Device Styles Page" Clicked="Button_Clicked_8"/>
+            <Button Text="Custom Dark Theme Page" Clicked="Button_Clicked_9"/>
+            <Button Text="CSS Page" Clicked="Button_Clicked_10"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

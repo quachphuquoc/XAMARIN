@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BaiTap2.PageListviewHoa">
+    <ContentPage.Content>
+        <ListView x:Name="lsvHoa" HasUnevenRows="True" SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell Height="80">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="4*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Image Source="{Binding Hinh}"
+                                   Grid.Column="0"
+                                   Grid.Row="0"/>
+                            <StackLayout Grid.Column="1"
+                                         Grid.Row="0"
+                                         Margin="16,0,0,0"
+                                         Padding="8">
+                                <Label Text="{Binding TenHoa}" TextColor="#0B0BD1"/>
+                                <Label Text="{Binding MoTa}" TextColor="#CD2222"/>
+                                <Label Text="{Binding Gia}" TextColor="#61DFE7"/>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
