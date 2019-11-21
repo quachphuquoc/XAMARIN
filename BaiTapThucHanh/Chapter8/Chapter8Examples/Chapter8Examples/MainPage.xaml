@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Chapter8Examples"
+             mc:Ignorable="d"
+             x:Class="Chapter8Examples.MainPage">
+
+    <StackLayout VerticalOptions="Center">
+        <local:CustomButton Text="Custom Button"
+                            Clicked="ButtonClicked"
+                            HorizontalOptions="Center"                            VerticalOptions="Fill"
+                            Margin="0,0,0,40"/>
+
+        <Entry Text="Good">
+            <Entry.Effects>
+                <local:TextValidatorEffect />
+            </Entry.Effects>
+        </Entry>
+        <Entry Text="Not so good">
+            <Entry.Effects>
+                <local:TextValidatorEffect MaxLength="10" />
+            </Entry.Effects>
+        </Entry>
+
+        <Button Text="Native Views Page" Clicked="Button_Clicked" Margin="0,40,0,0"/>
+        <Button Text="Factory Methods Page" Clicked="Button_Clicked_1"/>
+    </StackLayout>
+
+</ContentPage>
